@@ -12,5 +12,3 @@ Ctrl + ], Shift+tab : 내어쓰기
 Shift + Del : 한 줄 삭제
 Ctrl + , : settings => word wrap off -> on
 (code가 자동 줄바꿈 됨)
-
-5/1 (월): 파이썬 기초
