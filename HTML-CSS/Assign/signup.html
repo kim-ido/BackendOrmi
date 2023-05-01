@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="container">
+      <h1 class="title">회원가입</h1>
+      <p class="description">원활한 서비스 이용을 위해 회원가입을 해주세요</p>
+  
+  <form method="post">
+    <div>
+    <label class="label-width" for="user-id">아이디</label>
+    <input type="text" id="user-id" name="userId">
+  </div>
+  
+  <div>
+    <label class="label-width" for="user-email">이메일</label>
+    <input type="email" id="user-email" name="userEmail">
+  </div>
+  
+  <div>
+    <label class="label-width" for="user-pw
+    ">비밀번호</label>
+    <input type="password" id="user-pw" name="userPw">
+  </div>
+  
+  <div>
+    <label class="label-width" for="user-nickname">닉네임</label>
+    <input type="text" id="user-nickname" name="userNickname">
+  </div>
+  
+  <fieldset>
+    <legend>성별</legend>
+    <ul>
+      <li><label><input type="radio" name="gender">남성</label></li>
+      <li><label><input type="radio" name="gender">여성</label></li>
+      <li><label><input type="radio" name="gender">선택 안함</label></li>
+    </ul>
+  </fieldset>
+  
+  <fieldset>
+    <legend>사용 기술</legend>
+    <ul>
+      <li><label><input type="checkbox">HTML</label></li>
+      <li><label><input type="checkbox">CSS</label></li>
+      <li><label><input type="checkbox">JavaScript</label></li>
+      <li><label><input type="checkbox">Python</label></li>
+      <li><label><input type="checkbox">Django</label></li>
+      <li><label><input type="checkbox">GitHub</label></li>
+      <li><label><input type="checkbox">PostgreSQL</label></li>
+    </ul>
+  </fieldset>
+  
+  <button class="submit-btn" type="submit">회원가입</button>
+  </form>
+    </div>
+
+</body>
+</html>
